@@ -1,0 +1,102 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+    font-size: 25px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 200px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  
+}
+.button{
+   color: white;
+   height: 40px;
+   width: 150px;
+   border-radius: 5px;
+   background:deeppink;
+}
+.companys{
+    margin: 50px 200px;
+}
+.company-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    margin: 50px 200px;
+   
+}
+.container-title{
+    font-size: 30px;
+    padding-left: 600px;
+}
+.products{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 5px ;
+    padding: 40px 150px;
+}
+.see-more{
+    padding-left: 250%;
+    color: deeppink;
+    font-size: 15px;
+}
+.features{
+    display: flex;
+    margin: 50px 250px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+.features-title{
+    padding:100px ;
+    font-size: 20px;
+}
+.contacts{
+    margin: 50px 200px;
+    padding-left: 70px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+@media screen and (min-width:414px) {
+    .nav .container .features .contacts {
+        margin: 0px 0px;
+        width: 414px;
+        height: 896px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+    }
+}
+@media screen and (min-width:415px) (max-width:820px) {
+    .nav .container .features .contacts{
+        margin: 0px 0px;
+        width: 820px;
+        height: 1180px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+    } 
+    }
+    
